@@ -1,0 +1,11 @@
+#navbar1 .nav-pills .nav-link {
+	background: #aa4e66;
+}
+
+#navbar1 .nav-link {
+	color: #fff;
+}
+
+#navbar1 .nav-item {
+	padding-right: 1em;
+}
