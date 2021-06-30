@@ -11,13 +11,34 @@
 	}
 }
 
-@media only screen and (max-width: 992px) {
-	.pa-logo {
-		width: 50px;
+.pa-logo-narrow {
+	width: 50px;
+	height: auto;
+}
+
+.pa-logo-wide {
+	display: none;
+}
+
+@media only screen and (min-width: 335px) {
+	.pa-logo-narrow {
+		display: none;
+	}
+	.pa-logo-wide {
+		width: 200px;
 		height: auto;
+		display: block;
+	}
+}
+
+@media only screen and (min-width: 1000px) {
+	.pa-logo-wide {
+		width: 250px;
+		height: auto;
+		display: block;
 	}
 }
 
 #navbar1 .nav-item {
-	padding-right: 1em;
+	padding-right: 0.5em;
 }
