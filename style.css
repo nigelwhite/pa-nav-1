@@ -60,5 +60,6 @@
 /* -------------------------- */
 /* navbar 2 */
 
-#navbar2 {
+#navbar2 .nav-item {
+	padding-right: 2em;
 }
