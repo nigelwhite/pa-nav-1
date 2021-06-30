@@ -61,5 +61,21 @@
 /* navbar 2 */
 
 #navbar2 .nav-item {
-	padding-right: 2em;
+	padding-right: 1.75em;
+}
+
+#navbar2 {
+	border-radius: 5px;
+}
+
+#navbar2 .nav-link,
+#navbar2 .navbar-brand {
+	color: black;
+}
+
+#navbar2 .navbar-toggler {
+	border: solid 2px;
+	border-color: rgba(0, 0, 0, 0.1);
+	padding: 4px;
+	border-radius: 5px;
 }
