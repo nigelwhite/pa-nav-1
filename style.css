@@ -82,3 +82,33 @@
 
 /* -------------------------- */
 /* navbar 3 */
+@media (min-width: 992px) {
+	#navbar3 .offcanvas {
+		visibility: visible;
+		position: relative;
+		background: none;
+		border: none;
+		justify-content: start;
+		/* color: red; */
+	}
+}
+
+@media (max-width: 992px) {
+	#navbar3 .offcanvas {
+		width: 250px !important;
+	}
+	#navbar3 .offcanvas-start-lg {
+		top: 0;
+		left: 0;
+		border-right: 1px solid rgba(0, 0, 0, 0.2);
+		transform: translateX(-100%);
+	}
+}
+
+#navbar3 .navbar-nav li a {
+	color: white !important;
+}
+
+#navbar3 .nav-link {
+	padding-left: 0;
+}
