@@ -1,9 +1,13 @@
-#navbar1 .nav-pills .nav-link {
-	background: #aa4e66;
+@media only screen and (min-width: 992px) {
+	#navbar1 .nav-pills .nav-link {
+		background: #aa4e66;
+	}
 }
 
-#navbar1 .nav-link {
-	color: #fff;
+@media only screen and (min-width: 992px) {
+	#navbar1 .nav-link {
+		color: #fff;
+	}
 }
 
 #navbar1 .nav-item {
