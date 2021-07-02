@@ -1,3 +1,11 @@
+/* ----------------------*/
+/* Common nav styles */
+
+#navbar2,
+#navbar3 {
+	border-radius: 5px;
+}
+
 /* -------------------------- */
 /* navbar 1 */
 
@@ -62,10 +70,6 @@
 
 #navbar2 .nav-item {
 	padding-right: 1.75em;
-}
-
-#navbar2 {
-	border-radius: 5px;
 }
 
 #navbar2 .nav-link,

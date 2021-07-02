@@ -1,6 +1,6 @@
 // Hide Navbar on scroll down
 var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
+window.onscroll = function () {
 	var currentScrollPos = window.pageYOffset;
 	if (prevScrollpos > currentScrollPos) {
 		document.getElementById('navbar3').style.top = '0';
@@ -21,8 +21,8 @@ toggler.addEventListener('click', openSideNav);
 overlay.addEventListener('click', closeSideNav);
 
 // Scroll to top
-document.addEventListener('DOMContentLoaded', function() {
-	window.addEventListener('scroll', function() {
+document.addEventListener('DOMContentLoaded', function () {
+	window.addEventListener('scroll', function () {
 		if (window.scrollY > 150) {
 			document.getElementById('navbar3').classList.add('fixed-top');
 			// add padding top to show content behind navbar
