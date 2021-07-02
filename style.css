@@ -112,3 +112,76 @@
 #navbar3 .nav-link {
 	padding-left: 0;
 }
+
+/* ---------------------------- */
+/* navbar 3 */
+
+html,
+body {
+	overflow-x: hidden; /* Prevent scroll on narrow devices */
+}
+
+/* navbar hide on scroll down */
+#navbar3 .nav-up {
+	top: -80px;
+}
+#navbar3 .navbar {
+	transition: top 0.4s ease-in-out;
+}
+#navbar3 .sidebar,
+#navbar3 .overlay {
+	position: fixed;
+	top: 0;
+	bottom: 0;
+}
+.navbar3.sidebar {
+	left: -100%;
+	max-width: 300px;
+	transition: all ease 0.25s;
+	overflow-y: auto;
+	z-index: 1032;
+}
+.navbar3.overlay {
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	visibility: hidden;
+	z-index: 1031;
+}
+.main-navigation.active .navbar3.sidebar {
+	left: 0;
+}
+.main-navigation.active .navbar3.overlay {
+	visibility: visible;
+}
+@media (min-width: 992px) {
+	#navbar3 .sidebar {
+		position: relative;
+		top: auto;
+		bottom: auto;
+		left: auto;
+		flex-direction: row;
+		max-width: 100%;
+		transform: none;
+		transition: none;
+		overflow-y: visible;
+		z-index: auto;
+	}
+}
+#navbar3 .main-heading {
+	position: relative;
+	z-index: 100;
+}
+@media (max-width: 991.98px) {
+	#navbar3 .navbar-nav {
+		padding-top: 5rem;
+		padding-left: 1.5rem;
+	}
+}
+@media (min-width: 1084px) {
+	#navbar3 .order-lg-2 svg {
+		display: none;
+	}
+}
