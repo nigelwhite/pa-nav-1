@@ -189,3 +189,11 @@ body {
 		display: none;
 	}
 }
+
+#navbar3 .nav-pills .nav-link {
+	background: #c0a88c;
+}
+
+#navbar3 .nav-item {
+	padding-right: 1em;
+}
