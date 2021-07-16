@@ -1,3 +1,5 @@
+CDN provides Bootstrap 5
+
 Large breakpoint lg ≥992px
 
 next
